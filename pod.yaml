@@ -1,0 +1,23 @@
+#apiVersion: v1
+#kind: Pod
+#metadata:
+#  name: swissarmyknife
+#  labels:
+#    name: swissarmyknife
+#spec:
+#  containers:
+#  - name: armyknife
+#    image: adamsandor83/swissarmyknife:3
+#  nodeSelector:
+#    kubernetes.io/hostname: worker1
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: swissarmyknife
+  labels:
+    name: swissarmyknife
+spec:
+  containers:
+  - name: maincontainer
+    image: debian
