@@ -10,3 +10,4 @@ Current list of tools:
 - net-tools (contains ifconfig)
 - traceroute
 - iputils-ping 
+- kubectl
