@@ -13,3 +13,4 @@ Current list of tools:
 - traceroute
 - iputils-ping 
 - kubectl
+- jq
